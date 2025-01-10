@@ -1,8 +1,0 @@
-import requests
-
-url = "https://camo.githubusercontent.com/d5280f44c0075c42c16177beb886651a05fad1300d079433dfa4c50965e5d575/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d6174616c796575266c6162656c3d50726f66696c65253230766965777326636f6c6f723d306537356236267374796c653d666c6174" # your github profile url
-NUMBER_OF_REQUESTS = 200
-
-for i in range(1, NUMBER_OF_REQUESTS): 
-    r =    requests.get(url)
-    print(f"{i} new views")
